@@ -1,0 +1,91 @@
+body {
+    background-color: #FAF0E6;
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+    width: 100%;
+    
+}
+
+.header {
+    display: inline;
+    margin: 100px;
+}
+
+.header > h1 {
+    font-family: "Great Vibes";
+    text-align: center;
+    font-size: 3rem;
+}
+
+.header > h2 {
+    font-family: "Great Vibes";
+    text-align: center;
+    position: relative;
+}
+
+hr {
+    position: relative;
+    bottom: 40px;
+}
+
+.columns {
+    
+}
+
+#R {
+    width: 400px;
+    margin: 0px;
+}
+
+#A {
+    width: 400px;
+    margin:0px;
+}
+
+#Rings {
+    width: 300px;
+}
+
+.Rus {
+    float: left;
+    position: relative;
+}
+
+.Adel {
+    float:right;
+}
+
+
+#P {
+    width: 400px;
+
+}
+
+#Pahan {
+    width: 100%;
+    text-align: center;
+}
+
+#Pahan  h1 {
+    font-family: "Great Vibes";
+    text-align: center;
+    position: relative;
+}
+
+
+@media (max-width: 815px) {
+    .Rus {
+        clear:left;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .Adel {
+        clear: right;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+}
