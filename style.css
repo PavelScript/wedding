@@ -9,7 +9,9 @@ body {
 
 .header {
     display: inline;
-    margin: 100px;
+    margin-top: 0px;
+    background-color: blanchedalmond;
+    width: 100%;
 
 }
 
